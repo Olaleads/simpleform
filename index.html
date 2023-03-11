@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First week task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-transform: uppercase;">Sign up</h1>
+        <p>Fill in your neccesary biodata in the form below</p>
+        <form action="/submission/success.html">
+            <div class="row">
+                <div class="column">
+                    <label for="Fname">Name:</label>
+                    <input type="text" id="name" placeholder="Your name here">
+                </div>
+                <div class="column">
+                    <label for="Email">Email:</label>
+                    <input type="email" id="email" placeholder="Your email here">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="Phonenumber">Phone number:</label>
+                    <select name="Phonenumber" id="Number">
+                        <option value="">+231</option>
+                        <option value="">+232</option>
+                        <option value="">+233</option>
+                        <option value="">+234</option>
+                        <option value="">+235</option>
+                    </select>
+                    <input type="text" placeholder="7046******">
+                </div>
+                <div class="column">
+                   <label for="gender">Gender:</label>
+                   <select name="Gender" id="Gender">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                   </select>
+                </div>
+            </div>
+            <div class="pwd">
+                <label for="password">Password:</label><br>
+                <input type="password" name="pwd" id="pwd" style="width: 30%;" >
+            </div><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
